@@ -13,6 +13,7 @@ COMPILE TOOLS
 
 AUTHORS
 ===============
+* Port: Lewis Rosenthal
 * Port: Dennis Peterson
 
 LINKS
