@@ -1,0 +1,170 @@
+## Language file for analog2.11. May not (or may) work with any other version.
+## See Readme.html or http://www.statslab.cam.ac.uk/~sret1/analog/ for details.
+Dim
+Lun
+Mar
+Mer
+Jeu
+Ven
+Sam
+Janv
+F&eacute;vr
+Mars
+Avri
+Mai
+Juin
+Juil
+Ao&ucirc;t
+Sept
+Octo
+Nove
+D&eacute;ce
+sem. com.
+mois
+jou
+jours
+hr
+minute
+minutes
+seconde
+secondes
+octet
+octets
+requ&ecirc;te
+requ&ecirc;tes
+date
+fichier
+h&ocirc;te
+r&eacute;pertoire
+domaine
+extension
+URL
+navigateur
+no.
+description
+Statistiques du Serveur Web pour
+Rapport Mensuel
+Rapport Hebdomadaire
+R&eacute;sum&eacute; Quotidien
+Rapport Quotidien
+Rapport Horaire
+R&eacute;sum&eacute; Horaire
+Rapport des h&ocirc;tes
+h&ocirc;te
+h&ocirc;tes
+m
+Rapport des r&eacute;pertoires
+r&eacute;pertoire
+r&eacute;pertoires
+m
+Rapport des Types de Fichiers
+extension
+extensions
+f
+Rapport des requ&ecirc;tes
+fichier demand&eacute;
+fichiers demand&eacute;s
+m
+Rapport des Appelants
+URL appelant
+URL appelants
+m
+R&eacute;sum&eacute; des navigateurs
+navigateur
+navigateurs
+m
+Rapport des navigateurs
+Rapport des Domaines
+domaine
+domaines
+m
+sous-domaine demand&eacute;
+sous-domaines demand&eacute;s
+m
+Ces statistiques sont produites par
+Temps d'ex&eacute;cution
+Moins d'une
+Affichage des r&eacute;pertoires &agrave; une profondeur de %d
+Chaque unit&eacute;
+repr&eacute;sente
+ou une partie du moins
+requ&ecirc;te pour une page
+requ&ecirc;tes pour pages
+Rapport des Statuts
+Rapport des Erreurs
+Affichage de toutes les erreurs possibles
+Affiche toutes les erreurs avec au moins 1 occurence
+Affiche toutes les erreurs avec au moins %d occurences
+tri&eacute;es par le nombre d'occurences
+type d'erreur
+Programme lanc&eacute; le
+heure locale
+Requ&ecirc;tes analys&eacute;es de
+&agrave;
+Nombre total de requ&ecirc;tes r&eacute;ussies
+Moyenne journali&egrave;re des requ&ecirc;tes r&eacute;ussies
+Nombre total de requ&ecirc;tes pour pages r&eacute;ussies
+Moyenne journali&egrave;re des requ&ecirc;tes pour pages r&eacute;ussies
+Nombre de requ&ecirc;tes rat&eacute;es
+Nombre de requ&ecirc;tes redirig&eacute;es
+Nombre de fichiers distincts appel&eacute;s
+Nombre d'h&ocirc;tes distincts servis
+Nombre approximatif d'h&ocirc;tes distincts servis
+Nombre de nouveaux h&ocirc;tes les 7 derniers jours
+Nombre approximatif de nouveaux h&ocirc;tes les 7 derniers jours
+Lignes invalides dans le fichier log
+Entr&eacute;es non desir&eacute;es dans le fichier log
+Quantit&eacute; de trafic total
+Taux de trafic moyen par jour
+Les valeurs entre parenth&egrave;ses repr&eacute;sentent les
+7 jours au
+7 derniers jours
+Autres choix
+Sommet
+#reqs
+%reqs
+#occs
+%occs
+pages
+%pages
+octs
+%octs
+Affichage du premier %s
+Affichage de la premi&egrave;re %s
+*
+Affichage des %d premiers %s
+Affichage des %d premi&egrave;res %s
+*
+Affichage de tous les %s
+Affichage de toutes les %s
+*
+avec au moins
+%% du trafic
+octets du trafic
+tri&eacute; par
+tri&eacutee; par
+*
+tri&eacute;s par
+tri&eacutee;s par
+*
+le taux de trafic
+%% des requ&ecirc;tes pour pages
+le nombre de requ&ecirc;tes pour pages
+%% des requ&ecirc;tes
+le nombre de requ&ecirc;tes
+tri&eacute; par ordre alphab&eacute;tique
+tri&eacutee; par ordre alphab&eacute;tique
+*
+tri&eacute;s par ordre alphab&eacute;tique
+tri&eacutee;s par ordre alphab&eacute;tique
+*
+non tri&eacute;
+non tri&eacutee;
+*
+non tri&eacute;s
+non tri&eacutee;s
+*
+ :
+%d/%m/%y
+%D-%m-%Y
+%w %D %m %Y %H:%n

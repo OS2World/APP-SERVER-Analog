@@ -1,0 +1,229 @@
+## Language file for analog2.11. May not (or may) work with any other version.
+## See Readme.html or http://www.statslab.cam.ac.uk/~sret1/analog/ for details.
+##
+## This is a language file for analog. Each language needs two, one for HTML
+## output and one for plain text output. Lines beginning with ## are comments.
+## If your language doesn't seem to fit into this pattern, explain the problem
+## to me, and I can adjust the source code if necessary.
+##
+## First, abbreviations for the day and month names. Days are 3 letters long,
+## months are better as 3 letters, but can be 4 if necessary.
+Sun
+Mon
+Tue
+Wed
+Thu
+Fri
+Sat
+Jan
+Feb
+Mar
+Apr
+May
+Jun
+Jul
+Aug
+Sep
+Oct
+Nov
+Dec
+## Next some standard common words.
+## Abbreviation for "week beginning": 9 characters max. (or 10 if months have
+## 4 letters).
+week beg.
+month
+day
+days
+## Abbreviation for "hour": two letters
+hr
+minute
+minutes
+second
+seconds
+byte
+bytes
+request
+requests
+date
+file
+host
+directory
+domain
+extension
+URL
+browser
+## Abbreviation for number: 3 characters
+no.
+description
+## Now the names of the reports
+Web Server Statistics for
+Monthly Report
+Weekly Report
+Daily Summary
+Daily Report
+Hourly Report
+Hourly Summary
+## The rest of the reports are a bit different. We have the name of the report,
+## followed by the type of item in the report, once in the singular and once
+## in the plural. These are used in phrases like "including all ??? with at
+## least 200 requests". The words higher up are used for column headings.
+## Finally we have the gender of this type of object, which can be m, f or n.
+##
+## So for example, in German a directory is Verzeichnis (neuter gender), which
+## was given above. But "including the first directory" is "Ausgabe des ersten
+## Verzeichnisses" and "including the first two directories" is "Ausgabe der
+## ersten zwei Verzeichnisse". So here, we would have for the directory report:
+##
+## Verzeichnis-Bericht
+## Verzeichnisses
+## Verzeichnisse
+## n
+##
+## I hope that makes sense!
+Host Report
+host
+hosts
+n
+Directory Report
+directory
+directories
+n
+File Type Report
+extension
+extensions
+n
+Request Report
+requested file
+requested files
+n
+Referrer Report
+referring URL
+referring URLs
+n
+Browser Summary
+browser
+browsers
+n
+Browser Report
+Domain Report
+domain
+domains
+n
+requested subdomain
+requested subdomains
+n
+## A few more general phrases. You can see how they're used in the English
+## output.
+This analysis was produced by
+Running time
+Less than 1
+Printing directories to depth %d
+Each unit
+represents
+or part thereof
+request for a page
+requests for pages
+Status Code Report
+Error Report
+Printing all possible errors
+Printing all errors with at least 1 occurrence
+Printing all errors with at least %d occurrences
+sorted by number of occurrences
+error type
+Program started at
+local time
+Analysed requests from
+to
+Total successful requests
+Average successful requests per day
+Total successful requests for pages
+Average successful requests for pages per day
+Total failed requests
+Total redirected requests
+Number of distinct files requested
+Number of distinct hosts served
+Approximate number of distinct hosts served
+Number of new hosts served in last 7 days
+Approximate number of new hosts served in last 7 days
+Corrupt logfile lines
+Unwanted logfile entries
+Total data transferred
+Average data transferred per day
+Figures in parentheses refer to the
+7 days to
+last 7 days
+Go To
+Top
+## Now we need abbreviations for number of requests/occurrences/page requests;
+## for bytes; and for percentages of those four things. The numbers of things
+## and the bytes must be at most 5 characters, and the percentages at most 6.
+#reqs
+%reqs
+#occs
+%occs
+pages
+%pages
+bytes
+%bytes
+## Now we need to know how to say "printing the first <whatever>", "printing
+## the first <n> <whatevers>", and "printing all <whatevers>". The %s and %d
+## will be replaced by the appropriate things. There may be three of each of
+## these statements, for the genders m, f and n. Any genders that aren't used,
+## you can just put a * there instead.
+*
+*
+Printing the first %s
+*
+*
+Printing the first %d %s
+*
+*
+Printing all %s
+with at least
+%% of the traffic
+bytes of traffic
+## "sorted by" might need to occur in 6 versions: m, f and n singular; and
+## m, f and n plural. The same goes for the other types of sorting below.
+*
+*
+sorted by
+*
+*
+sorted by
+amount of traffic
+%% of the requests for pages
+number of page requests
+%% of the requests
+number of requests
+*
+*
+sorted alphabetically
+*
+*
+sorted alphabetically
+*
+*
+unsorted
+*
+*
+unsorted
+## There's a colon here, because the French like to put a space before a colon,
+## so they have space-colon instead here.
+:
+## Some date formats. E.g. for 9am on 1st January 1997 use
+## %d for date          " 1"
+## %D for 0-padded date "01"
+## %m for month         "Jan"
+## %y for short year    "97"
+## %Y for long year     "1997"
+## %h for hour          " 9"
+## %H for 0-padded hour "09"
+## %n for minute        "00"
+## %w for weekday       "Wed"
+##  1/Jan/97  (e.g., in German it would be %d.%m %y for 1.Jan 97)
+%d/%m/%y
+## 01-Jan-1997
+%D-%m-%Y
+## Wed-01-Jan-1997 12:05
+%w-%D-%m-%Y %H:%n
+## That's it! Thankyou very much!

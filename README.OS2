@@ -1,0 +1,157 @@
+Analog for OS/2
+===============
+
+Nothing provided in this distribution alters in any way the licensing
+requirements of the original authors.
+
+This information is provided by me at no risk to myself and at no cost to you.
+Don't hassle me if something goes wrong and I won't come looking for you.
+
+The analog source files are provided exactly as found on the author's
+distribution sites. I have made no chages to any of Stephen Turner's code
+included in this archive. That is your job!
+
+If you are not able to, I will, for a small fee, build this program to your
+specfications.
+
+Dennis Peterson
+dpeterso@halcyon.com
+11/02/97
+
+This is a simple OS/2 "port" of the very fine Analog program. As it is not at
+all practical to deliver this program in binary form, this readme file provides
+the reader with all the steps needed to compile the program under OS/2.
+
+The above statement always evokes the question, "Why?". As it happens, the
+source code contains several awkward hard-coded statements which must be
+changed by each user. These include your home URL, your home page name,
+and several full paths to various log files and system directories. The good
+news is, these are trivial and are given below.
+
+Changes:
+========
+I have used the diff utility to provide the before/after code changes needed
+*FOR MY SITE*. Each change is shown with the line number, the unmodified line,
+and the modified line.
+
+Your job is to go to the indicated line number and make those changes needed
+for your installation (which is why no binaries are provided)
+
+analform.c - Unless you wish to use the CGI method of using this tool, this
+             file can be ignored.
+
+The diff output shows that only line 22 in the original file requires change.
+The < indicates the original line while > indicates the modified line.
+
+22c22
+< #define COMMAND "/usr/local/etc/httpd/analog/analog"
+---
+> #define COMMAND "\\www\\analog\\analog.exe"
+
+In this file, line 22 provides a literal fully qualified path to the analog
+executable. The default is for a UNIX system running an NCSA-equivalent
+web server. In my case I am running the Lotus Domino webserver which installs
+itself in \www. I have elected to place the analog product in a directory
+(analog) under \www. Note too that the directory separators are backslashes.
+Because these are special characters in C they must be escaped with a
+backslash as shown.
+
+analhead.h
+==========
+This file provides options for the installed application.
+
+Line 13 is used in the <TITLE> of the generated report. Place your site name
+here. In my case, that is "OS/2 Northwest"
+
+13c13
+< #define HOSTNAME "the Statistical Laboratory"
+---
+> #define HOSTNAME "OS/2 Northwest"
+
+Line 17 is the home page URL of your site. Mine is as indicated. (Mine is
+also a private lan so don't go looking for it ;-)
+
+17c17
+< #define HOSTURL "http://www.statslab.cam.ac.uk/"
+---
+> #define HOSTURL "http://www.os2nw.inetnw.com/"
+
+Line 21 needs to have the base directory of your web server. Again, in my
+case, this is \WWW. Note that forward slashes are allowed - they are changed
+later during the compile. Note also that the HTTPDIR definition must have a
+trailing / as shown.
+
+21c21
+< #define HTTPDIR "/usr/local/etc/httpd/"
+---
+> #define HTTPDIR "/www/"
+
+Line 72 is the relative path to the CGI executable. It has been renamed to
+use .exe rather than .cgi so that OS/2 recognizes it as an executable.
+
+72c72
+< #define FORMPROG "/cgi-bin/analform.cgi"
+---
+> #define FORMPROG "/cgi-bin/analform.exe"
+
+Other changes you may need to make
+==================================
+Examine the analhead.h file carefully. It specifies the paths and file names
+of various log files used for analysis. Unless you are using Apache or other
+NCSA derivative it is likely you will have to make some changes to paths
+and file names. This is not a big deal as the entries are clearly indicated.
+
+You may also want to change the name of the directory where the images used
+by analog are installed. Analog generates line graphs of various usages and
+by default the .gif images are stored /images which is found in your HTML
+docs directory.
+
+analhead2.h
+===========
+This file provides a number of compiler options including which operating
+system is being used. Beginning at line 34 I added a new section for OS/2.
+
+33a34,39
+> #ifdef OS2
+> #define NODNS
+> #define VERSION VNUMBER "/OS/2"
+> #define DIRSEP '\\'
+> #endif
+>
+
+Because of the following annoying warning I moved the dirent.h line so that
+it follows the sys/types.h entry. This is not needed but eliminates the
+warning.
+
+G:/EMX/INCLUDE/dirent.h:7: warning: #warning <dirent.h> requires <sys/types.h>
+
+84d89
+< #include <dirent.h>          /* Normal dirent */
+86a92
+> #include <dirent.h>          /* Normal dirent */
+
+That's it for OS/2 changes!
+===========================
+To compile it I used the EMX/GNU developer's stuff available everywhere. I
+have also provided a Make.OS2 make file (rename to Makefile). To build the
+app just run make. To build the CGI tool run "make form". This will create
+the CGI executable and create an html form which you place in your HTML
+document directory. Obviously, the CGI executable goes in your CGI-BIN
+directory.
+
+Read the Read.html file until you understand all the options available. Visit
+the analog home site to see it at work. Then thank Stephen Turner for this
+most excellent program.
+
+Finally, read the licensing agreement. It's the law.
+
+Suggestions
+===========
+The output of this report generator is pure HTML 2.0 and includes a .gif
+image so declaring. If you wish to have a nice white background rather than
+the Mosaic Gray, open the analog.c program, find the <body> tag, and change it
+to <body bgcolor=\"#FFFFFF\">. Since it is no longer HTML 2.0 it would be
+nice to remove from the generated HTML any reference that it is. This is also
+found in the analog.c file near the </body> tag.
+
+Do the same for analform.c.

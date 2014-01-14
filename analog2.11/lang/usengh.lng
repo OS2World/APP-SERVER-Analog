@@ -1,0 +1,170 @@
+## Language file for analog2.11. May not (or may) work with any other version.
+## See Readme.html or http://www.statslab.cam.ac.uk/~sret1/analog/ for details.
+Sun
+Mon
+Tue
+Wed
+Thu
+Fri
+Sat
+Jan
+Feb
+Mar
+Apr
+May
+Jun
+Jul
+Aug
+Sep
+Oct
+Nov
+Dec
+week beg.
+month
+day
+days
+hr
+minute
+minutes
+second
+seconds
+byte
+bytes
+request
+requests
+date
+file
+host
+directory
+domain
+extension
+URL
+browser
+no.
+description
+Web Server Statistics for
+Monthly Report
+Weekly Report
+Daily Summary
+Daily Report
+Hourly Report
+Hourly Summary
+Host Report
+host
+hosts
+n
+Directory Report
+directory
+directories
+n
+File Type Report
+extension
+extensions
+n
+Request Report
+requested file
+requested files
+n
+Referrer Report
+referring URL
+referring URLs
+n
+Browser Summary
+browser
+browsers
+n
+Browser Report
+Domain Report
+domain
+domains
+n
+requested subdomain
+requested subdomains
+n
+This analysis was produced by
+Running time
+Less than 1
+Printing directories to depth %d
+Each unit
+represents
+or part thereof
+request for a page
+requests for pages
+Status Code Report
+Error Report
+Printing all possible errors
+Printing all errors with at least 1 occurrence
+Printing all errors with at least %d occurrences
+sorted by number of occurrences
+error type
+Program started at
+local time
+Analyzed requests from
+to
+Total successful requests
+Average successful requests per day
+Total successful requests for pages
+Average successful requests for pages per day
+Total failed requests
+Total redirected requests
+Number of distinct files requested
+Number of distinct hosts served
+Approximate number of distinct hosts served
+Number of new hosts served in last 7 days
+Approximate number of new hosts served in last 7 days
+Corrupt logfile lines
+Unwanted logfile entries
+Total data transferred
+Average data transferred per day
+Figures in parentheses refer to the
+7 days to
+last 7 days
+Go To
+Top
+#reqs
+%reqs
+#occs
+%occs
+pages
+%pages
+bytes
+%bytes
+*
+*
+Printing the first %s
+*
+*
+Printing the first %d %s
+*
+*
+Printing all %s
+with at least
+%% of the traffic
+bytes of traffic
+*
+*
+sorted by
+*
+*
+sorted by
+amount of traffic
+%% of the requests for pages
+number of page requests
+%% of the requests
+number of requests
+*
+*
+sorted alphabetically
+*
+*
+sorted alphabetically
+*
+*
+unsorted
+*
+*
+unsorted
+:
+%m/%d/%y
+%m-%D-%Y
+%w-%m-%D-%Y %H:%n

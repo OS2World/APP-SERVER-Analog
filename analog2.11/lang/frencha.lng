@@ -1,0 +1,170 @@
+## Language file for analog2.11. May not (or may) work with any other version.
+## See Readme.html or http://www.statslab.cam.ac.uk/~sret1/analog/ for details.
+Dim
+Lun
+Mar
+Mer
+Jeu
+Ven
+Sam
+Janv
+Fevr
+Mars
+Avri
+Mai
+Juin
+Juil
+Aout
+Sept
+Octo
+Nove
+Dece
+sem. com.
+mois
+jou
+jours
+hr
+minute
+minutes
+seconde
+secondes
+octet
+octets
+requete
+requetes
+date
+fichier
+hote
+repertoire
+domaine
+extension
+URL
+navigateur
+no.
+description
+Statistiques du Serveur Web pour
+Rapport Mensuel
+Rapport Hebdomadaire
+Resume Quotidien
+Rapport Quotidien
+Rapport Horaire
+Resume Horaire
+Rapport des hotes
+hote
+hotes
+m
+Rapport des repertoires
+repertoire
+repertoires
+m
+Rapport des Types de Fichiers
+extension
+extensions
+f
+Rapport des requetes
+fichier demande
+fichiers demandes
+m
+Rapport des Appelants
+URL appelant
+URL appelants
+m
+Resume des navigateurs
+navigateur
+navigateurs
+m
+Rapport des navigateurs
+Rapport des Domaines
+domaine
+domaines
+m
+sous-domaine demande
+sous-domaines demandes
+m
+Ces statistiques sont produites par
+Temps d'execution
+Moins d'une
+Affichage des repertoires a une profondeur de %d
+Chaque unite
+represente
+ou une partie du moins
+requete pour une page
+requetes pour pages
+Rapport des Statuts
+Rapport des Erreurs
+Affichage de toutes les erreurs possibles
+Affiche toutes les erreurs avec au moins 1 occurence
+Affiche toutes les erreurs avec au moins %d occurences
+triees par le nombre d'occurences
+type d'erreur
+Programme lance le
+heure locale
+Requetes analysees de
+a
+Nombre total de requetes reussies
+Moyenne journaliere des requetes reussies
+Nombre total de requetes pour pages reussies
+Moyenne journaliere des requetes pour pages reussies
+Nombre de requetes ratees
+Nombre de requetes redirigees
+Nombre de fichiers distincts appeles
+Nombre d'hotes distincts servis
+Nombre approximatif d'hotes distincts servis
+Nombre de nouveaux hotes les 7 derniers jours
+Nombre approximatif de nouveaux hotes les 7 derniers jours
+Lignes invalides dans le fichier log
+Entrees non desirees dans le fichier log
+Quantite de trafic total
+Taux de trafic moyen par jour
+Les valeurs entre parentheses representent les
+7 jours au
+7 derniers jours
+Autres choix
+Sommet
+#reqs
+%reqs
+#occs
+%occs
+pages
+%pages
+octs
+%octs
+Affichage du premier %s
+Affichage de la premiere %s
+*
+Affichage des %d premiers %s
+Affichage des %d premieres %s
+*
+Affichage de tous les %s
+Affichage de toutes les %s
+*
+avec au moins
+%% du trafic
+octets du trafic
+trie par
+triee par
+*
+tries par
+triees par
+*
+le taux de trafic
+%% des requetes pour pages
+le nombre de requetes pour pages
+%% des requetes
+le nombre de requetes
+trie par ordre alphabetique
+triee par ordre alphabetique
+*
+tries par ordre alphabetique
+triees par ordre alphabetique
+*
+non trie
+non triee
+*
+non tries
+non triees
+*
+ :
+%d/%m/%y
+%D-%m-%Y
+%w %D %m %Y %H:%n

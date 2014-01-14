@@ -1,0 +1,170 @@
+## Language file for analog2.11. May not (or may) work with any other version.
+## See Readme.html or http://www.statslab.cam.ac.uk/~sret1/analog/ for details.
+Dom
+Lun
+Mar
+Mer
+Gio
+Ven
+Sab
+Gen
+Feb
+Mar
+Apr
+Mag
+Giu
+Lug
+Ago
+Set
+Ott
+Nov
+Dic
+sett.com.
+mese
+gio
+giorni
+hh
+minuto
+minuti
+secondo
+secondi
+byte
+byte
+richiesta
+richieste
+data
+file
+host
+direttorio
+dominio
+estensione
+URL
+browser
+no.
+descrizione
+Statistiche del Web Server per
+Resoconto mesi
+Resoconto settimane
+Sommario giorni della settimana
+Resoconto giorni
+Resoconto ore
+Sommario ore del giorno
+Resoconto host
+host
+host
+n
+Resoconto direttori
+direttorio
+direttori
+m
+Resoconto tipi di file
+estensione
+estensioni
+f
+Resoconto richieste
+file richiesto
+file richiesti
+m
+Resoconto provenienze
+URL di provenienza
+URL di provenienza
+f
+Sommario browser
+browser
+browser
+m
+Resoconto browser
+Resoconto domini
+dominio
+domini
+m
+sottodominio richiesto
+sottodomini richiesti
+m
+Queste statistiche sono state prodotte da
+Tempo di esecuzione
+Meno di un
+Sottodirettori riportati fino al livello %d di profondita
+Ogni unita
+rappresenta
+o frazione
+richiesta di pagina
+richieste di pagine
+Resoconto codici di stato
+Resoconto errori
+Elenco di tutti gli errori possibili
+Elenco di tutti gli errori possibili accaduti almeno 1 volta
+Elenco di tutti gli errori possibili accaduti almeno %d volte
+in ordine di frequenza
+tipo di errore
+Programma attivato il giorno
+ora locale
+Analizzate le richieste da
+a
+Totale richieste soddisfatte
+Media giornaliera di richieste soddisfatte
+Totale richieste di pagine soddisfatte
+Media giornaliera di richieste di pagine soddisfatte
+Totale richieste fallite
+Totale richieste reindirizzate
+Numero di file distinti richiesti
+Numero di host distinti serviti
+Numero approssimato di host distinti serviti
+Numero di nuovi host serviti negli ultimi 7 giorni
+Numero approssimato di nuovi host serviti negli ultimi 7 giorni
+Linee del log file non valide
+Registrazioni nel log file non desiderate
+Quantita di traffico totale
+Traffico medio giornaliero
+I valori in parentesi si riferiscono a
+i 7 giorni fino al
+gli ultimi 7 giorni
+Altre statistiche
+Inizio
+#rich
+%rich
+#casi
+%casi
+#pag.
+%pag.
+byte
+%byte
+Elenco del primo %s
+Elenco della prima %s
+Elenco del primo %s
+Elenco dei primi %d %s
+Elenco delle prime %d %s
+Elenco dei primi %d %s
+Elenco di tutti i %s
+Elenco di tutte le %s
+Elenco di tutti gli %s
+con almeno
+%% del traffico
+byte di traffico
+in ordine di
+in ordine di
+in ordine di
+in ordine di
+in ordine di
+in ordine di
+traffico
+%% delle richieste di pagine
+numero di pagine richieste
+%% delle richieste
+numero di richieste
+in ordine alfabetico
+in ordine alfabetico
+in ordine alfabetico
+in ordine alfabetico
+in ordine alfabetico
+in ordine alfabetico
+in ordine casuale
+in ordine casuale
+in ordine casuale
+in ordine casuale
+in ordine casuale
+in ordine casuale
+:
+%d/%m/%y
+%D-%m-%Y
+%w %D %m %Y alle %H:%n
